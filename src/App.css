@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .mainContainer{
   width: 100%;
@@ -17,4 +20,44 @@
   background-position: center;
   width: 80%;
   height: 806px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+
+}
+.content{
+  width: 85%;
+  height: 100%;
+  
+}
+.leftDiv{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.logo img{
+  width: 100px;
+}
+.weatherData{
+  display: flex;
+  align-items: center;
+  gap: 0px 30px;
+  
+}
+.weatherData h1{
+  color: white;
+  font-size: 143px;
+}
+.weatherData h2{
+  color: white;
+  font-size: 60px;
+}
+.weatherData p{
+  font-size: 18px;
+  color: white;
+}
+.weatherData img{
+  width: 70px;
 }
