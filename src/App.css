@@ -30,7 +30,7 @@
   width: 85%;
   height: 100%;
   display: flex;
-  
+  justify-content: space-between;
 }
 .leftDiv{
   display: flex;
@@ -68,4 +68,45 @@
 .hourlyTemp{
   display: flex;
   
+}
+.rightDiv{
+  color: white;
+  background-color: black;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  row-gap: 40px;
+}
+.searchBar input{
+  background-color: transparent;
+  outline: none;
+  font-size: 22px;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+.searchBar input::placeholder{
+  color: white;
+}
+.weatherDetails{
+  font-size: 20px;
+  font-weight: 300;
+}
+.tempDetails h4{
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.tempMax{
+  display: flex;
+  flex-direction: row;
+  
+}
+.tempMax p{
+  font-size: 18px;
+  width: 80%;
 }
