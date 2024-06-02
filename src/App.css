@@ -76,18 +76,20 @@
   display: flex;
   flex-direction: column;
   justify-content: start;
-  row-gap: 40px;
+  row-gap: 50px;
+}
+.searchBar{
+  display: flex;
+  margin-bottom: -40px;
 }
 .searchBar input{
   background-color: transparent;
+  width: 100%;
   outline: none;
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: 300;
   color: white;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid white;
-  padding-bottom: 5px;
+ border: none;
 }
 .searchBar input::placeholder{
   color: white;
@@ -101,12 +103,40 @@
   font-size: 18px;
   text-transform: uppercase;
 }
+.tempDetails{
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
 .tempMax{
   display: flex;
   flex-direction: row;
   
 }
-.tempMax p{
+.tempMaxText, .tempMinText{
   font-size: 18px;
-  width: 80%;
+  width: 75%;
+}
+.tempMaxDeg, .tempMinDeg {
+  font-size: 22px;
+  width: 20%;
+}
+.tempMaxIcon{
+  font-size: 25px;
+  color: #DFA1A1;
+}
+.tempMinIcon{
+  color: #6D97CA;
+  font-size: 25px;
+}
+.tempMinIcons{
+  color: white;
+  font-size: 25px;
+}
+.tempMinWind{
+  font-size: 20px;
+  padding-right: 20px;
+}
+.magnifier{
+  font-size: 25px;
 }
