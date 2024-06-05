@@ -165,3 +165,37 @@
       padding-right: 50px;
     }
   }
+
+  /* Mobile responsive Start */
+
+  @media (max-width: 390px){
+    .leftDiv{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }  
+    .weatherData{
+      display: flex;
+      flex-direction: column;
+    }  
+    .weatherData h1{
+      font-size: 93px;
+    } 
+    .cityDateTime{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .cityDateTime h2{
+      font-size: 30px;
+    }
+    .cityDateTime p {
+      font-size: 14px;
+    }
+    .weatherData img{
+      display: none;
+    }
+    .rightDiv{
+        width: 100%;
+      }
+    }
